@@ -12,7 +12,11 @@ const AppTabs = createMaterialBottomTabNavigator();
 
 export const Tabs = () => {
     return(
-        <AppTabs.Navigator>
+        <AppTabs.Navigator 
+            barStyle={{backgroundColor:colors.lapis_lazuli}}
+            activeColor={colors.columbia_blue}
+            inactiveColor={colors.pacific_cyan}
+        >
 
 
             <AppTabs.Screen 

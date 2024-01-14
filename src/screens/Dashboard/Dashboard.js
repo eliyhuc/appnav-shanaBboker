@@ -4,7 +4,7 @@ import styles from '../../services/appStyle'
 
 const Dashboard = () => {
     return(
-        <View style={styles.container}>
+        <View style={[styles.container, {backgroundColor:'#99cc00'}]}>
             <Text>Dashboard</Text>
         </View>
     )
